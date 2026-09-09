@@ -22,7 +22,7 @@ void setup() {
     // Cấu hình Kênh và Địa chỉ sử dụng hệ THẬP PHÂN (Decimal) cho dễ hiểu
     // Ví dụ: Kênh 23, Địa chỉ High = 0, Địa chỉ Low = 161
     myLoRa.setChannel(23);
-    myLoRa.setAddress(0, 161);
+    myLoRa.setAddress(0, 0);
     myLoRa.setTransmissionMode(0); // Chế độ 0 là Transparent (phát tự do)
 }
 
